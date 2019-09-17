@@ -1,1 +1,9 @@
-<app-item-list [file]="'Basic'"></app-item-list>
+<div class="container">
+  <app-item-list
+    [props]="{ text: 'Basic Cupcake:', file: 'Basic', heading: 'Basic' }"
+  ></app-item-list>
+  <app-item-list
+    [props]="{ text: 'Delux Cupcakes:', file: 'Delux', heading: 'Delux' }"
+  ></app-item-list>
+  <app-item-list [props]="{ text: 'Total:', file: 'Total', heading: 'Totals' }"></app-item-list>
+</div>
